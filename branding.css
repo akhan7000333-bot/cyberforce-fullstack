@@ -9,7 +9,8 @@
 .founder-signature strong{font:700 clamp(24px,3vw,34px) "Space Grotesk",sans-serif;letter-spacing:.08em;background:linear-gradient(90deg,#fff,#4cc9ff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 30px rgba(76,201,255,.12)}
 .founder-signature small{font:500 10px Inter,sans-serif;letter-spacing:.08em;color:#8299b0}
 .founder-card{margin-top:32px;display:flex;align-items:center;gap:26px;padding:30px;border:1px solid rgba(76,201,255,.18);border-radius:18px;background:linear-gradient(145deg,rgba(13,32,53,.78),rgba(5,11,19,.8));box-shadow:0 25px 70px rgba(0,0,0,.25),inset 0 1px rgba(255,255,255,.03)}
-.founder-avatar{width:88px;height:88px;flex:0 0 88px;display:grid;place-items:center;border:1px solid rgba(76,201,255,.5);border-radius:50%;font:700 28px "Space Grotesk",sans-serif;color:#bfeeff;background:radial-gradient(circle,#12385c,#07101c 70%);box-shadow:0 0 35px rgba(22,140,255,.2),inset 0 0 25px rgba(76,201,255,.08)}
+.founder-avatar{width:88px;height:88px;flex:0 0 88px;display:grid;place-items:center;border:1px solid rgba(76,201,255,.75);border-radius:50%;font:700 28px "Space Grotesk",sans-serif;color:transparent;background-image:url('/assets/anas-khan.jpg');background-size:cover;background-position:center 18%;box-shadow:0 0 35px rgba(22,140,255,.24),inset 0 0 25px rgba(76,201,255,.08);overflow:hidden;position:relative}
+.founder-avatar::after{content:"";position:absolute;inset:0;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(117,216,255,.32),inset 0 0 24px rgba(0,0,0,.22);pointer-events:none}
 .founder-card strong{display:block;margin:7px 0 2px;font:700 30px "Space Grotesk",sans-serif;letter-spacing:-.02em;color:#fff}
 .founder-card>div:last-child>span:not(.founder-label){display:block;color:#70cfff;font-size:11px;letter-spacing:.12em;font-weight:600}
 .founder-card p{max-width:680px;color:#8197ad;line-height:1.7;font-size:12px}
